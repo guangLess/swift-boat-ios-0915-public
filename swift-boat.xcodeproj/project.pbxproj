@@ -14,6 +14,7 @@
 		4D7E0DC91C05005A00A15C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E0DC71C05005A00A15C54 /* LaunchScreen.storyboard */; };
 		4D7E0DD41C05005B00A15C54 /* swift_boatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E0DD31C05005B00A15C54 /* swift_boatTests.swift */; };
 		4D7E0DE21C0501B800A15C54 /* BoatSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E0DE11C0501B800A15C54 /* BoatSpec.swift */; };
+		62C9375C1C306A3B007F8712 /* Boat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C9375B1C306A3B007F8712 /* Boat.swift */; };
 		F09FA3243E677061B1DFED0A /* Pods_swift_boatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1743229EDDB9616EBBD737 /* Pods_swift_boatTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		4D7E0DD31C05005B00A15C54 /* swift_boatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_boatTests.swift; sourceTree = "<group>"; };
 		4D7E0DD51C05005B00A15C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7E0DE11C0501B800A15C54 /* BoatSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoatSpec.swift; sourceTree = "<group>"; };
+		62C9375B1C306A3B007F8712 /* Boat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boat.swift; sourceTree = "<group>"; };
 		655C0C02EA6CFA96674F2876 /* Pods-swift-boatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-boatTests/Pods-swift-boatTests.release.xcconfig"; sourceTree = "<group>"; };
 		843645AF02FDAAFFF3F66122 /* Pods-swift-boatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-boatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-boatTests/Pods-swift-boatTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7E0DBE1C05005A00A15C54 /* AppDelegate.swift */,
+				62C9375B1C306A3B007F8712 /* Boat.swift */,
 				4D7E0DDE1C05016E00A15C54 /* Resources */,
 			);
 			path = "swift-boat";
@@ -285,6 +288,7 @@
 			files = (
 				4D7E0DC11C05005A00A15C54 /* ViewController.swift in Sources */,
 				4D7E0DBF1C05005A00A15C54 /* AppDelegate.swift in Sources */,
+				62C9375C1C306A3B007F8712 /* Boat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
